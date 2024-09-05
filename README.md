@@ -9,3 +9,4 @@ This is for storing instructions for the plus assignments.
 ## Reading material
 The Rust Book - https://doc.rust-lang.org/stable/book/  
 Rust by Example - https://doc.rust-lang.org/stable/rust-by-example/ 
+Youtube: NoBoilerplate (quick and informational videos about rust) - https://www.youtube.com/@NoBoilerplate
