@@ -1,9 +1,8 @@
-# RaySorcerers-Instructions
-
-This is for storing instructions for the plus assignments.
+# Rustoholics-Instructions
+A repo of tasks for Rustoholics (the coolest +-group in INDA 😎)
 
 ## Important
-* Please name your repos correctly (``<KTH-ID>-<task name>``), it makes grading easier. E.g. ``bwidman-rustIntro``
+* Please name your repos correctly (``<KTH-ID>-<task name>``), it makes grading easier. E.g. ``dmitryc-task-2``
 * Read the [styleguide](STYLEGUIDE.md) for other important information.
 
 ## Reading material
