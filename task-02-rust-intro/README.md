@@ -48,9 +48,9 @@ Write your source code in `src`, where the `main` function is located in `src/ma
 This week, you're going to learn the basics of Rust by solving easier [Kattis](https://kth.kattis.com) problems. For each problem, create one Rust crate in your repo. Include a screenshot of your Kattis submission to prove solution. See `./minimal_scalar_product` for a Kattis solution example.
 
 Solve at least two of the following problems:
-- [Summera tal](https://kth.kattis.com/courses/DD2016/plusplus23/assignments/nx4ezb/problems/kth.javap.sumsort)
-- [Avstånd till kanten](https://kth.kattis.com/courses/DD2016/plusplus23/assignments/nx4ezb/problems/kth.javap.kant)
-- [Cyber-Clara och anmälningslistorna](https://kth.kattis.com/courses/DD2016/plusplus23/assignments/nx4ezb/problems/kth.grupdat.anmalningslistorna)
+- [Summera tal](https://kth.kattis.com/courses/DD2016/plusplus24/assignments/q4npcz/problems/kth.javap.sumsort)
+- [Avstånd till kanten](https://kth.kattis.com/courses/DD2016/plusplus24/assignments/q4npcz/problems/kth.javap.kant)
+- [Cyber-Clara och anmälningslistorna](https://kth.kattis.com/courses/DD2016/plusplus24/assignments/q4npcz/problems/kth.grupdat.anmalningslistorna)
 
 _(optional fun)_:
 - [Game Rank](https://open.kattis.com/problems/gamerank)
