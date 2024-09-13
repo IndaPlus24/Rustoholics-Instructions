@@ -6,6 +6,6 @@ A repo of tasks for Rustoholics (the coolest +-group in INDA 😎)
 * Read the [styleguide](STYLEGUIDE.md) for other important information.
 
 ## Reading material
-The Rust Book - https://doc.rust-lang.org/stable/book/  
-Rust by Example - https://doc.rust-lang.org/stable/rust-by-example/ 
-Youtube: NoBoilerplate (quick and informational videos about rust) - https://www.youtube.com/@NoBoilerplate/
+* The Rust Book - https://doc.rust-lang.org/stable/book/  
+* Rust by Example - https://doc.rust-lang.org/stable/rust-by-example/ 
+* Youtube: NoBoilerplate (quick and informational videos about rust) - https://www.youtube.com/@NoBoilerplate/
