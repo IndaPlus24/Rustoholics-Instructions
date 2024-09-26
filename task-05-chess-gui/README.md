@@ -4,10 +4,15 @@
 
 Great job creating your first ever chess-engine! Now that you are a certified backend-developer, it's time to find out how much you'll like (or dislike) being a front-end developer ;) This weeks task is to create a GUI for a chess-engine.
 
-To write a front-end in Rust, you have two choices:
+To write a front-end in Rust, you have two choices (with templates):
 * The [Good Game Easily library (GGEZ)](https://ggez.rs/). For help, you're referred to the [library documentation](https://docs.rs/ggez/0.6.1/ggez/) and to the code repository's [very good examples](https://github.com/ggez/ggez/tree/master/examples).
 * The modular [Piston](https://www.piston.rs/) library. [Examples](https://github.com/PistonDevelopers/piston-examples/tree/master/examples). [Documentation](https://docs.rs/piston/0.53.1/piston/)
-  
+
+Some other alternatives:
+* [Bevy](https://bevyengine.org/) - Uses component programming, very cool, but takes time to learn.
+* [OpenGL](https://rust-tutorials.github.io/learn-opengl/), [Vulcan](https://kylemayes.github.io/vulkanalia/) - If you really hate yourself and like agonizing pain, and want to do everything from scratch. But you learn tons.
+
+
 You can of course use another library if you want to.
 
 Take inspiration from existing chess games or go crazy and write something unorthodox!
