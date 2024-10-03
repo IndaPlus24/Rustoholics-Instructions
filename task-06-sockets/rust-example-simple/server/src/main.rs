@@ -5,8 +5,11 @@ fn main() {
 
     loop {
         match listener.accept() {
-            Ok((_socket, addr)) => println!("new client: {addr:?}"),
-            Err(e) => println!("couldn't get client: {e:?}"),
+            Ok((socket, addr)) => {
+                println!("New client: {addr:?}");
+
+            },
+            Err(e) => println!("Couldn't get client: {e:?}"),
         };
     }
 }
