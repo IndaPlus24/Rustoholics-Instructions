@@ -1,4 +1,4 @@
-use std::io::Read;
+use std::io::{Read, Write};
 use std::net::{TcpListener, TcpStream};
 use std::path::Component::Prefix;
 
@@ -18,7 +18,10 @@ fn main() {
                 let (a, b) = (&buf[0], &buf[1]);
                 let c = a + b;
                 println!("From buffer: {buf:?}");
-                println!("{a} + {b} = {c}\n");
+                println!("Sending {a} + {b} = {c} back to client\n");
+
+                // Send back the message
+                socket.write(&[c]).expect("Couldn't write to socket");
             },
             Err(e) => println!("Couldn't get client: {e:?}"),
         };
