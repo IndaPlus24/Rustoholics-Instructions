@@ -9,9 +9,16 @@ fn main() {
         match listener.accept() {
             Ok((mut socket, addr)) => {
                 println!("New client: {addr:?}");
+
+                // Read from socket to buffer
                 let mut buf = [0; 2];
                 socket.read(&mut buf).expect("Couldn't read from socket");
-                println!("From buffer: {buf:?}\n");
+
+                // Retrieve data
+                let (a, b) = (&buf[0], &buf[1]);
+                let c = a + b;
+                println!("From buffer: {buf:?}");
+                println!("{a} + {b} = {c}\n");
             },
             Err(e) => println!("Couldn't get client: {e:?}"),
         };
