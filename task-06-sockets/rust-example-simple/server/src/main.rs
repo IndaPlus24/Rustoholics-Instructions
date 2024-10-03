@@ -1,15 +1,14 @@
 use std::net::{TcpListener, TcpStream};
 
-fn handle_client(stream: TcpStream) {
-    // ...
-}
-
 fn main() -> std::io::Result<()> {
-    let listener = TcpListener::bind("127.0.0.1:80")?;
+    let listener = TcpListener::bind("127.0.0.1:1337").unwrap();
 
-    // accept connections and process them serially
-    for stream in listener.incoming() {
-        handle_client(stream?);
-    }
+    match listener.accept() {
+        Ok((_socket, addr)) => println!("new client: {addr:?}"),
+        Err(e) => println!("couldn't get client: {e:?}"),
+    };
+
     Ok(())
 }
+
+
