@@ -12,7 +12,7 @@ Tobias Hansson has graciously provided some of my old Java code under `./java-ex
 
 Viola Söderlund has touched up a very simple Rust server and a client under `./rust-example`. Check it out!
 
-Dmitry Chirin
+Dmitry Chirin added another even simpler version of sockets in rust.
 
 ### Prepare your assignment
 
