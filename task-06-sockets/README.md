@@ -1,6 +1,6 @@
 # DD1337 Week 6
 
-Modified: Dmitry Chirin (Inspired by ++22 assignment by Anton Lilja and Morris )
+Modified: Dmitry Chirin (Inspired by ++22 assignment by Anton Lilja and Morris Hansing)
 
 ## The Internet is for... Fun!
 
