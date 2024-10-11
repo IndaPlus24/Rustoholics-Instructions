@@ -20,7 +20,7 @@ $ ./name_of_executable
 
 ### Prepare for your assignment
 
-1) Create a repository named `<KTH_ID>-clang`.
+1) Create a repository named `<KTH_ID>-task-7`.
 2) Clone your newly created repository.
 3) Create one `.c` file per subassignment. Name then descriptively.
 
