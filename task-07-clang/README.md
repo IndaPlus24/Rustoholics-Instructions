@@ -1,4 +1,4 @@
-# DD1337 Week 6
+# DD1337 Week 7
 
 Heavily edited by: Benjamin Widman
 
