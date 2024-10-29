@@ -77,7 +77,7 @@ int main() {
 }
 ```
 
-For simplicity sake I suggest limiting the value of `n` (thus how big the p & q you choose are) to fit within a C datatype, like `int` or better `unsigned long long int` (nothing some evil type casting can't handle muahaha). Using prime numbers around the range 500-1000 *should* not cause any overflow, but please test around. However, if you want to you can extend your key size to 2048 or 4096 and in that case increase `e` to 65527, for top-class security.
+For simplicity sake I suggest limiting the value of `n` (thus how big the p & q you choose are) to fit within a C datatype, like `int` or better `unsigned long long int` (nothing some evil type casting can't handle muahaha). Using prime numbers around the range 500-1000 *should* not cause any overflow, but please test around. However, if you want to you can extend your key size to 2048 or 4096 and in that case increase `e` to 65537, for top-class security.
 
 > Note: `e^-1` is not `1/e` but the inverse of `e` in modulo `r`. If you remember from basmatten it's the number which when multiplied with `e` equals 1 in modulo `r`. I.e: ed (mod r) = 1.
 
