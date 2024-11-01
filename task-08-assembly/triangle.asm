@@ -24,19 +24,16 @@ NL:    .asciz "\n"     # define label HW as a constant string "Hello World\n"
 .text
 
 main:
-	li a0, 10
+	li a0, 1
+	li a1, 10
 	j loop
 
 loop:
-	ble a0, zero, exit_program
+	bgt a0, a1, exit_program
 	
 	add	s0, a0, zero            # save return address
 	
-	#jal print
-	
-	li      a7, 4                  # set syscall code "print string"
-    la      a0, S                  # load address of string HW into syscall argument registry
-    ecall                          # print "Hello World\n" to standard output stream
+	jal print
 	
 	li      a7, 4                  # set syscall code "print string"
     la      a0, NL                 # load address of string HW into syscall argument registry
@@ -44,7 +41,7 @@ loop:
 	
     add	a0, s0, zero            # restore return adress
     
-    addi a0, a0, -1
+    addi a0, a0, 1
     
     j loop
 	
