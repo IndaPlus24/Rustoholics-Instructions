@@ -30,10 +30,15 @@ main:
 loop:
 	ble a0, zero, exit_program
 	
-	add	s1, a0, zero            # save return address
+	add	s0, a0, zero            # save return address
 	
-    # manage saved regitries
-    add	a0, s1, zero            # restore return adress
+	jal print
+	
+	li      a7, 4                  # set syscall code "print string"
+    la      a0, NL                 # load address of string HW into syscall argument registry
+    ecall                          # print "Hello World\n" to standard output stream
+	
+    add	a0, s0, zero            # restore return adress
     
     addi a0, a0, -1
     
@@ -41,15 +46,18 @@ loop:
 	
 
 print:
-	ble a0, zero, ra
-	
+	add	s1, a0, zero            # save return address
+
 	li      a7, 4                  # set syscall code "print string"
     la      a0, S                  # load address of string HW into syscall argument registry
     ecall                          # print "Hello World\n" to standard output stream
 	
+	add	a0, s1, zero
+	
 	addi a0, a0, -1
 	
-	j print
+	bgt a0, zero, print
+	jr ra
 
 
 exit_program:
