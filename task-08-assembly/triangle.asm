@@ -32,7 +32,11 @@ loop:
 	
 	add	s0, a0, zero            # save return address
 	
-	jal print
+	#jal print
+	
+	li      a7, 4                  # set syscall code "print string"
+    la      a0, S                  # load address of string HW into syscall argument registry
+    ecall                          # print "Hello World\n" to standard output stream
 	
 	li      a7, 4                  # set syscall code "print string"
     la      a0, NL                 # load address of string HW into syscall argument registry
