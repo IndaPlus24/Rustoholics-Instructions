@@ -38,6 +38,6 @@ int faculty(int n) {
 int main() {
     // a * b = 221
     printf("13 * 17 = %d\n", multiply(13, 17));
-    // 11! = 39916800
-    printf("11! = %d\n", faculty(11));
+    // 7! = 5040
+    printf("7! = %d\n", faculty(7));
 };
