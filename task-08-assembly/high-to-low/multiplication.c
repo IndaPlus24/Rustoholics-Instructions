@@ -4,8 +4,11 @@
  * 
  * Author: Tobias Hansson <tohanss@kth.se>, Viola Söderlund <violaso@kth.se>
  * 
- * Last updated: 2020-10-27
+ * Last updated: 2024-11-02
+ * Dmitry Chirin <dmitryc@kth.se> added a main function
  */
+
+#include <stdio.h>
 
 /**
  * Multiply given factors using addition.
@@ -28,3 +31,13 @@ int faculty(int n) {
         fac = multiply(fac, i);
     return fac;
 }
+
+/**
+ * Main function to test multiply and facutly functions
+ */
+int main() {
+    // a * b = 221
+    printf("13 * 17 = %d\n", multiply(13, 17));
+    // 11! = 39916800
+    printf("11! = %d\n", faculty(11));
+};
