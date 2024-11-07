@@ -1,4 +1,4 @@
-# DD1337 Week 9
+# DD1337 Week 8
 
 Author: Viola Söderlund
 
@@ -8,9 +8,9 @@ Modified 2.0: Benjamin Widman & Daniel Strömberg
 
 ## Assembly Language Design
 
-MIPS? What is this, 1985? Time for an upgrade. We'll make our own assembly language with blackjack and... cool instructions!
+RISC-V is sooo last week. We'll make our own assembly language with blackjack and... cool instructions!
 
-Your language must be an 32-bit assembly language with 16-bit instructions. See the [MIPS reference sheet](https://www.kth.se/social/files/563c63c9f276547044e8695f/mips-ref-sheet.pdf) and take inspiration from the MIPS 32-bit instruction encoding. Your instruction encoding determines:
+Your assembly language should use 16-bit instructions. See the [RISC-V instruction sheet](../task-08-assembly/riscv-instruction-sheet.pdf) and take inspiration from the RISC-V 32-bit instruction encoding. Your instruction encoding determines:
 
 | **Code**                    | **Size and Flexibility**                                                                                                                   |
 | --------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------ |
@@ -18,14 +18,14 @@ Your language must be an 32-bit assembly language with 16-bit instructions. See 
 | `rs`/`rt`/`rd` _(register)_ | 3 bits register addresses gives room for 8 registers.                                                                                      |
 | `imm` _(immediate)_         | 6/12 bits immediate values, which for unsigned integers give room for 0-63 (6-bit)/0-4065 (12 bit).                                        |
 
-Think carefully of how your instructions are encoded. More registers may mean a smaller instruction set or smaller immediates. The above table is only an example for how you may divide your availiable bits.
+Think carefully of how your instructions are encoded. More registers may mean a smaller instruction set or smaller immediates. The above table is only an example for how you may divide your available bits.
 
 Your registers should be 32 bits in size, meaning values ranging from 0 to 4,294,967,295 (unsigned) and −2,147,483,648 to 2,147,483,647 (signed).
 
 Lastly, remember to give your language a cool name!
 
 ## Reading Material
-The [MIPS Reference sheet](https://canvas.kth.se/courses/20007/files/3004941/download?wrap=1) is *extremely* useful as a reference for how an assembly language can be designed.
+The [RISC-V Reference sheet](../task-08-assembly/riscv-instruction-sheet.pdf) is *extremely* useful as a reference for how an assembly language can be designed.
 
 ## Assignment
 
@@ -35,7 +35,7 @@ Summary:
 
 ### Prepare Assignment
 
-1) Create a repository named `<KTH_ID>-task-9` under the `IndaPlus24` organisation and clone it.
+1) Create a repository named `<KTH_ID>-isa` and clone it.
 2) Navigate into your newly created repository and start writing.
 
 See `./bbvv` for an example language and interpreter.
@@ -54,7 +54,7 @@ For advanced implementations (only level 2-3), contenders for the most outrageou
 
 An interpretor reads a code file and run it instruction for instruction. A compiler reads a code file and outputs a system specific executable file. An emulator reads an executable file and executes it by interpretation.
 
->The most outrageous solution will be presented to Ray Sourcerers (the other plus group working on this)! Be creative!
+>The most outrageous solution will be presented to Rustoholics (the other plus group working on this)! Be creative!
 
 ### Language Capabilities
 
