@@ -35,7 +35,7 @@ Summary:
 
 ### Prepare Assignment
 
-1) Create a repository named `<KTH_ID>-isa` and clone it.
+1) Create a repository named `<KTH_ID>-task-9` and clone it.
 2) Navigate into your newly created repository and start writing.
 
 See `./bbvv` for an example language and interpreter.
@@ -54,7 +54,7 @@ For advanced implementations (only level 2-3), contenders for the most outrageou
 
 An interpretor reads a code file and run it instruction for instruction. A compiler reads a code file and outputs a system specific executable file. An emulator reads an executable file and executes it by interpretation.
 
->The most outrageous solution will be presented to Rustoholics (the other plus group working on this)! Be creative!
+>The most outrageous solution will be presented to Ray Sorcerers (the other plus group working on this)! Be creative!
 
 ### Language Capabilities
 
