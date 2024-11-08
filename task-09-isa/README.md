@@ -20,7 +20,7 @@ Your assembly language should use 16-bit instructions. See the [RISC-V instructi
 
 Think carefully of how your instructions are encoded. More registers may mean a smaller instruction set or smaller immediates. The above table is only an example for how you may divide your available bits.
 
-Your registers should be 32 bits in size, meaning values ranging from 0 to 4,294,967,295 (unsigned) and −2,147,483,648 to 2,147,483,647 (signed).
+Your registers should be 16 bits in size, meaning values ranging from 0 to 65,535 (unsigned) and -32,768 to 32,767 (signed).
 
 Lastly, remember to give your language a cool name!
 
