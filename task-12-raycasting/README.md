@@ -55,7 +55,7 @@ To get a more in-depth explanation I recommend to either:
 
 ## Assignment
 
-1) Create a repository named `<KTH_ID>-raycasting` and clone it.
+1) Create a repository named `<KTH_ID>-task-12` and clone it.
 2) Write a raycaster in an optional language.
    - Implement controls so you can move around (moving with WASD and rotating with LEFT & RIGHT)
    - _Optional extra_: textured walls by sampling images instead of drawing single-colored lines
