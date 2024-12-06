@@ -29,7 +29,7 @@ Also see:
 
 **Goldstar** for the Rustacean who still sticks to Rust. Rust is not mandatory in any way, I just like it.
 
-See [the absolute chad of INDA++19 - Eskil's ray tracer](https://github.com/default-username-852/raytracer) written in Rust. (or the [even chader Benjamin's ray tracer from 2022](https://github.com/IndaPlus22/bwidman-raytracer) :sunglasses:)
+See [the absolute chad of INDA++19 - Eskil's ray tracer](https://github.com/default-username-852/raytracer) written in Rust. (or the [even chader Benjamin's ray tracer from 2022](https://github.com/IndaPlus22/bwidman-raytracer) :sunglasses: (or the [chadest implementation](https://github.com/INDA22PlusPlus/dmitryc-raytracer/tree/readme) by Dima :) )
 
 **Note**: You may implement your solution using any language (this includes Python *_host_ pseudokod *_host_ *_host_).
 
