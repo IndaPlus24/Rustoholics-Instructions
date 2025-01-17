@@ -30,4 +30,4 @@ addOne (l:ls) = (l+1):(addOne ls)
 3. Write solutions to the Kattis problems and screenshot that you've passed the judge.
 
 ## Reading material
-Up to chapter 6 of the "Haskell book": https://learnyouahaskell.com
+Up to chapter 6 of the "Haskell book": https://learnyouahaskell.github.io/chapters.html
