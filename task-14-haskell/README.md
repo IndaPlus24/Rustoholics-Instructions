@@ -25,7 +25,7 @@ addOne (l:ls) = (l+1):(addOne ls)
 3. What is a pure function? Give an example of a pure and a non-pure function.
  
 ## Prepare assignment
-1. As usual create a repo with the name `<kth-id>-haskell`.
+1. As usual create a repo with the name `<kth-id>-task-14`.
 2. Install Haskell via this excellent link: https://www.haskell.org/ghcup/
 3. Write solutions to the Kattis problems and screenshot that you've passed the judge.
 
