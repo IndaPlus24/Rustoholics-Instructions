@@ -5,7 +5,9 @@ So long for-loops, hello recursion!
 This week we are going to learn a language from the functional paradigm: Haskell.
 
 ## Task
-Solve this Kattis-problem: https://kth.kattis.com/courses/DD1360/progp24/assignments/fymgmo/problems/kth.progp.warmup
+Solve this Kattis-problem: https://kth.kattis.com/courses/DD1366/progp25/assignments/dojhka/problems/kth.progp.warmup
+
+(Register on the course first: https://kth.kattis.com/courses/DD1366/progp25/register)
 
 ## Prepare assignment
 1. As usual create a repo with the name `<kth-id>-task-14`.
