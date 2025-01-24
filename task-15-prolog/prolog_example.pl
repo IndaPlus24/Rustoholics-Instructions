@@ -1,9 +1,13 @@
 
 % facts
 human(benjamin).
+human(dante).
 asse(dima).
 friend(benjamin, dima).
 friend(dima, eynar).
+
+equal(X, Y):-
+   X == Y.
 
 % \+ functions as negation (in this case, as !asse(Person))
 student(Person):-
@@ -16,8 +20,7 @@ friend_of_a_friend(A, B):-
     friend(X, B).
 
 % is true if Element is the last element of the list
-last([H], Element):-
-    Element = H.
+last([Element], Element).
 last([H|T], Element):-
     last(T, Element).
 
