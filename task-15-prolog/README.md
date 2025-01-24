@@ -44,7 +44,7 @@ For help with code setup, begin by copying the contents of `./template.pl` into 
 
 ## Assignment
 
-Your assignment is to implement one (or more) predicates that handle some of the functionality of the game [Go](https://en.wikipedia.org/wiki/Go_(game)). 
+Your assignment is to implement one (or more) predicates that handle some of the functionality of the game [Go](https://en.wikipedia.org/wiki/Go_(game)). (Quick [video](<https://www.youtube.com/watch?v=cFVM_hwh56s>) explaining the rules)
 
 Your functions only need to be able to handle boards of size 9x9, but it would be nice if they could handle bigger (or smaller) board sizes.
 
