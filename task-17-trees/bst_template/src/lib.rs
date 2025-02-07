@@ -9,7 +9,7 @@ use rstest::*;
 
 /// An example of a function using BST to sort a vec
 fn tree_sort(mut input: Vec<i32>) -> Vec<i32> {
-    input.sort();
+    // Implement the sorting using a BST
     return input;
 }
 
@@ -44,7 +44,6 @@ fn run_tests(#[case] test: i32) {
     for line in reader_out.lines().skip(1) {
         for word in line.unwrap().split_whitespace() {
             sorted.push(word.parse().unwrap());
-            println!("word '{}'", word);
         }
     }
 
