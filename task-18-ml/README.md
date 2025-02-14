@@ -38,6 +38,7 @@ For this week you have to do the following:
   - Implementing some sort of [gradient decent](https://bhatnagar91.medium.com/how-neural-networks-learn-using-gradient-descent-f48c2e4079a6)
   - [Momentum](https://machinelearningmastery.com/gradient-descent-with-momentum-from-scratch/)
   - [Back propagation](https://www.geeksforgeeks.org/feedforward-neural-network/)
+  - Try training on other data, and other images (there are other data sets for this too)! 
 
 ### Reference values
 
