@@ -6,7 +6,7 @@ Author: Dmitry Chirin
 ## ML - Machine Learning 🤖
 AI is all over the place nowadays. And as some wise person once said: "If you can't beat them, join them!" 😈
 
-This assignment is about making a Nural Network (NN), one of the models in Machine Learning.
+This assignment is about making a Neural Network (NN), one of the models in Machine Learning.
 
 ## Prepare for your assignment
 
@@ -27,9 +27,9 @@ For this week you have to do the following:
     - You can use libraries for some math, such as vectors, but try to implement matrix multiplication by yourselves
     (if it seems to be too hard, you could use a library, but that's as much as is allowed).
       - Examples of acceptable libraries in Python are: numpy, pandas, scipy, matplotlib, numba
-    - You are not allowed to use TenserFlow, Pytorch, or other libraries which implement the whole thing, 
+    - You are not allowed to use TensorFlow, Pytorch, or other libraries which implement the whole thing, 
     or large parts of it
-- (Optional) Optimize your nural network more. Try implementing one of the following:
+- (Optional) Optimize your neural network more. Try implementing one of the following:
   - Experimenting more with the amount of nodes you have in each layer, how many layers, etc.
   - Testing [different activation functions](https://www.geeksforgeeks.org/activation-functions-neural-networks/) (ReLU, Sigmoid, tanh, softmax, softplus)
   - [Dropout layers](https://towardsdatascience.com/dropout-in-neural-networks-47a162d621d9/)
